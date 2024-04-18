@@ -275,7 +275,7 @@
         
                 /* Ensuring projects are visible */
                 .skills-column {
-                    overflow: visible; /* Ensure projects are not hidden */
+                    overflow: auto; /* Ensure projects are not hidden */
                 }
         
                 /* Project styles */
@@ -294,6 +294,15 @@
                 .project p {
                     font-size: 16px;
                     margin-bottom: 5px;
+                }
+                @media only screen and (max-width: 768px) {
+                    .skills-column {
+                        flex-direction: column; 
+                    }
+                    .skills-column .project {
+                        margin: 10px 0; /* Adjust margin for projects */
+                    }
+                
                 }
             </style>
             <div class="skills-column">
