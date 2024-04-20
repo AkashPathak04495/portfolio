@@ -11,7 +11,7 @@ Semester: FALL SEMESTER
 Link to the website:
 This website is hosted on netlify which is used for deployement purpose 
 As this code has javascript too so we need a hosting server so netlify helps in that purpose
-https://akashportfolio12.netlify.app/
+https://akashpathakportfolio.netlify.app/
 
 Another link to the website hosted from github port.io:
 https://akashpathak04495.github.io/portfolio/
